@@ -1,0 +1,122 @@
+#nav{
+	background-color: blue;
+	height: 50px;
+	background-image: url("2.jpg"); 
+	}
+#nav ul li{
+	float: left;
+	font-size: 200%;
+	font-family: sans-serif;
+	padding-top: 7px;
+	padding-bottom: 3px;
+	display: inline-block;
+	color: white;
+	position: relative;
+	width:210px;
+	height: 45px;
+	background-image: url(""); 
+
+
+}
+#nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color: white;
+	color: white;
+	padding: 5px;
+	font-size: 50%;
+
+}
+ #nav ul li:hover{
+
+	background-color: lightblue ;
+	border-radius: 10px;
+	display: block;
+	background-image: url("1.jpg");
+	color: black; 
+}
+ #nav ul li:hover ul{
+	display:block;
+}
+#nav ul li ul li:hover{
+
+	background-image: url("2.jpg"); 
+}
+#nav ul li ul li a
+{display: block;
+ color: black;
+ text-decoration:none;
+
+ }
+ #nav ul li ul li{
+ 	height: 40px;
+ 	width: 200px;
+
+ }
+ .connect a{
+ 	background-image: url("icons.png");
+ 	display: inline-block;
+ 	margin: 5px 10px 5px 0px;
+ 	height: 25px;
+ 	width: 30px;
+ 	background-repeat: no-repeat;
+ }
+ .connect a.twitter{
+ 	width: 30px;
+ 	background-position: 0px -45px;
+
+ }
+ .connect a.googleplus{
+ 	width: 30px;
+ 	background-position: 5px -90px;
+
+ }
+ .connect a.twitter:hover{
+ 	width: 30px;
+ 	background-position: -38px -45px;
+
+ }
+ .connect a.googleplus:hover{
+ 	width: 30px;
+ 	background-position: -36px -90px;
+
+ }
+ .connect a.facebook:hover{
+ 	width: 30px;
+ 	background-position: -36px 0px;
+
+ }
+ .connect{
+ 
+ position: absolute;
+ 	background-color: yellow;
+ 	width:100%;
+ 	overflow: hidden;}
+ #sub{
+ 	float: right;
+ }
+ .box{
+    
+ 	width: ;
+ 	background-color: lightgreen;
+
+ }
+ input
+ {
+ 	border-radius: 5px;
+ 	padding: 5px 10px;
+ 	display: block;
+ 	margin-bottom: 10px;
+
+ }
+#country{
+	border-radius: 5px;
+ 	padding: 5px 10px;
+
+
+}
+label{
+	padding :10px 10px;
+	font-family: sans-serif;
+
+}
